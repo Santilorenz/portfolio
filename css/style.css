@@ -12,36 +12,28 @@ body{
 }
 
 /*!----HEADER----*/
-header{
-    background-color:rgb(52, 52, 52);
-    padding: 15px;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-header h1 {
-    color: rgb(0, 30, 119);
-    font-size: 70px;
-    font-style: unset;
-    font-weight: 700;
+.bg-body-tertiary{
+    background-color: rgb(52, 52, 52) !important;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
+.logo {
+    width: 90px;
+    height: 90px;
 }
 
-header nav ul li {
-    margin: 10px 5px 10px 5px;
+.navbar-nav {
+    font-size: 20px;
 }
 
-header nav ul li a {
-    text-decoration: none;
+.navbar-nav .nav-link{
     color: white;
 }
+
+.navbar-toggler{
+    color: blue;
+    background-color: rgb(252, 252, 252);
+}
+
 
 /*!----MAIN----*/
 
@@ -49,7 +41,7 @@ header nav ul li a {
     height: 600px;
     text-align: center;
     color: black;
-    background-image: url("../img/desarrollo.jpg");
+    background-image: url("../img/desarrollo\ \(1\).jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,39 +67,22 @@ header nav ul li a {
     margin: 10px;
 }
 
-.servicios {
-    width: 100%;
-    height: 300px;
+.card-img-top {
+    height: 400px;
 }
 
 .servicios h2 {
-    background-color: rgb(77, 77, 77);
-    color: white;
+    margin: 40px;
+    padding: 15px;
     text-align: center;
-    padding: 10px;
-    margin: 20px;
-    font-size: 30px;
+    background-color: rgb(23, 0, 231);
+    color: wheat;
+    border-radius: 10px 60px 30px;
 }
 
-.servicios .servicios-contenedor{
+.tienda-div {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.servicios .servicios-contenedor div {
-    border: 1px solid gray;
-    width: 200px;
-    height: 100px;
-    text-align: center;
-    margin: 20px;
-    box-shadow: -2px 10px 21px
-0px rgba(0,0,0,0.75); -webkit-caja-sombra: -2px 10px 21px 0px rgba(0,0,0,0.75);
--moz-caja-sombra: -2px 10px 21px 0px rgba(0,0,0,0.75);
-}
-
-.tienda {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -118,37 +93,30 @@ header nav ul li a {
     margin-bottom: 20px;
 }
 
-.tienda img {
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin-left: 10px;
-    margin: 10px;
-}
-
 .tienda h2 {
-    text-align: left;
+    text-align: center;
     font-size: 35px;
     margin: 20px;
 }
 
 .tienda p {
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     margin-left: 10px;
 
 }
 .tienda a {
-    background-color: black;
+    background-color: rgb(23, 0, 231);
     text-decoration: none;
     color: white;
+    border-radius: 30px;
     padding: 10px;
     margin-top: 60px;
     margin: 20px;
-    display: flex;
     width: 30%;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .fixed {
@@ -160,6 +128,7 @@ header nav ul li a {
 .fixed img {
     width: 80px;
 }
+
 /*!----FOOTER----*/
 
 footer {
@@ -268,7 +237,7 @@ footer a img {
     text-align: center;
     font-size: 40px;
     margin: 10px;
-    background-color: rgba(165, 42, 42, 0.596);
+    background-color: rgba(50, 224, 216, 0.719);
 }
 
 .proyecto p{
@@ -280,11 +249,12 @@ footer a img {
 .proyecto a {
     background-color: black;
     text-decoration: none;
+    border-radius: 30px;
     color: white;
     padding: 10px;
     margin-top: 40px;
     margin: 20px;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -319,6 +289,7 @@ footer a img {
     padding: 10px;
     margin: 30px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -330,7 +301,7 @@ footer a img {
     padding: 10px;
     margin-top: 60px;
     margin: 20px;
-    width: 100%;
+    width: 60%;
 }
 
 .segunda h3 {
@@ -344,11 +315,218 @@ footer a img {
     margin-top: 15px;
 }
 
+.tercera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tercera h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 15px;
+}
+.tercera ul {
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px;
+}
 
+.cuarta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cuarta h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 15px;
+}
+.cuarta p {
+    font-size: 20px;
+    margin-top: 15px;
+}
 
+.quinta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quinta h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 15px;
+}
+.quinta a {
+    background-color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    margin: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+/*! TRABAJOS */
+
+.trabajos h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color:rgba(0, 0, 205, 0.856);
+}
+.grid-contenedor {
+    margin: 30px;
+    /*!ACTIVAMOS LA GRILLA */
+    display: grid;
+    /*!DEFINIMOS COLUMNAS */
+    grid-template-columns: 1fr 1fr 1fr ;
+    /*!DEFINIMOS FILAS */
+    grid-auto-rows: 400px;
+    /*!GAP (separacion entre elementos) */
+    gap: 10px;
+}
+
+.grid-contenedor div {
+    position: relative;
+}
+
+.grid-contenedor div h3 {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.781);
+    width: 100%;
+    color: mediumblue;
+    padding: 5px;
+}
+
+.grid-contenedor div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-item {
+    border: double 3px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.primer-item {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.segundo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tercer-item {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilos h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color:rgba(0, 0, 205, 0.856);
+}
+.cuarto-item {
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quinto-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sexto-item {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*! Contacto */
+
+.primaria{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    text-align: center;
+    justify-content: center;
+}
+
+.primaria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
 /*! MEDIA QUERIES */
+
+@media screen and (max-width: 935px) {
+    .primera img {
+        width: 50%;
+        height: 50%;
+    }
+    .quinta a {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+
+@media screen and (max-width: 933px){
+    .hero{
+        flex-direction: column;
+    }
+    .tienda img {
+        display: none;
+    }
+    .proyecto a {
+        font-size: 12px;
+    }
+    .primera {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .segunda {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .segunda img {
+        width: 50%;
+    }
+}
 
 @media screen and (max-width:520px) {
     header{
@@ -360,30 +538,37 @@ footer a img {
     .hero p {
         font-size: 20px;
     }
-    .servicios-contenedor {
-        flex-direction: column;
+    .grid-contenedor {
+        grid-template-columns: 1fr 1fr ;
+    }
+    .primer-item, .sexto-item {
+        grid-column: span 1;
+    }
+    .tercer-item, .cuarto-item{
+        grid-column: span 2;
+    }
+    .fixed img {
+        width: 55px;
+    }
+    .proyecto a {
+        font-size: 8px;
+    }
     }
 
+@media screen and (max-width:500px){
+    .card-img-top {
+        height: 300px;
+    }
 }
-
 @media screen and (max-width:420px) {
     header nav ul li a{
         font-size: 14px;
     }
-}
-
-@media screen and (max-width: 933px){
-    .hero{
-        flex-direction: column;
+    .grid-contenedor {
+        grid-template-columns: 1fr ;
     }
-    .tienda img {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 720px){
-    .servicios {
-        height: 500px;
+    .tercer-item, .cuarto-item{
+        grid-column: span 1;
     }
 }
 

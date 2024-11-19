@@ -3,62 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+    <title>| Trabajos |</title>
 </head>
 <body>
     <header>
-        <h1>BoX</h1>
-        <nav> <!-- Barra de navegacion -->
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./trabajos.html">Trabajos</a></li>
-                <li><a href="./contacto.html">Contacto</a></li> 
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="../img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="../index.html"> Inicio</a>
+                        <a class="nav-link" href="../pages/servicios.html"> Servicios</a>
+                        <a class="nav-link" href="../pages/nosotros.html"> Nosotros</a>
+                        <a class="nav-link" href="../pages/trabajos.html"> Trabajos</a>
+                        <a class="nav-link" href="../pages/contacto.html"> Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
         <main> <!-- Contenido principal -->
-            <section id="proyectos">
-                <h2>Proyectos Recientes</h2>
-                <div class="proyecto">
-                    <h3>Proyecto 1: Tienda Online</h3>
-                    <p>Desarrollo de una plataforma de e-commerce con diseño responsivo y una experiencia de usuario optimizada.</p>
-                    <img src="../img/E-commerce.jpg" alt="">
-                </div>
-                <div class="proyecto">
-                    <h3>Proyecto 2: Portafolio Personal</h3>
-                    <p>Creación de un sitio web para un fotógrafo, destacando su trabajo y permitiendo la fácil navegación entre las galerías.</p>
-                    <img src="../img/Porfolio.webp" alt="">
-                </div>
-                <div class="proyecto">
-                    <h3>Proyecto 3: Blog de Viajes</h3>
-                    <p>Diseño y desarrollo de un blog con un enfoque en la narración visual, incluyendo integración de redes sociales.</p>
-                    <img src="../img/Blog-viajero.jpg" alt="">
+            <section class="trabajos">
+                <h2>Proyectos diseñados</h2>
+                <div class="grid-contenedor">
+                    <div class="grid-item primer-item">
+                        <h3>Proyecto 1: Tienda Online</h3>
+                        <img src="../img/E-commerce.jpg" alt="">
+                    </div>
+                    <div class="grid-item segundo-item">
+                        <h3>Proyecto 2: Portafolio Personal</h3>
+                        <img src="../img/Porfolio.webp" alt="">
+                    </div>
+                    <div class="grid-item tercer-item">
+                        <h3>Proyecto 3: Blog de Viajes</h3>
+                        <img src="../img/Blog-viajero.jpg" alt="">
+                    </div>
                 </div>
             </section>
-        
-            <section id="estilos">
+
+            <section class="estilos">
                 <h2>Estilos de Diseño</h2>
-                <ul>
-                    <li>
+                <div class="grid-contenedor"> 
+                    <div class="grid-item cuarto-item">
                         <h3>Minimalista</h3>
-                        <p>Uso de espacios en blanco y tipografía limpia para una apariencia moderna y clara.</p>
                         <img src="../img/Minimal.jpg" alt="">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="grid-item quinto-item">
                         <h3>Colorido y Creativo</h3>
-                        <p>Diseños vibrantes que reflejan la personalidad de la marca y atraen la atención del usuario.</p>
                         <img src="../img/Creat-Color.jpg" alt="">
-                    </li>
-                    <li>
+                    </div>
+                    <div class="grid-item sexto-item">
                         <h3>Diseño Responsive</h3>
-                        <p>Aseguramos que todos nuestros proyectos se vean y funcionen bien en dispositivos móviles y de escritorio.</p>
                         <img src="../img/responsive-design.jpg" alt="">
-                    </li>
-                </ul>
-            </section>
+                    </div>
+                </div>
         </main>
     
     <footer> <!-- Pie de pagina -->
@@ -66,5 +70,6 @@
         <a href=""><img src="../img/whatsapp.png" alt="Logo red social whatsapp"></a>
         <a href=""><img src="../img/instagram.png" alt="Logo red social instagram"></a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
