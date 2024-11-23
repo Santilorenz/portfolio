@@ -442,6 +442,16 @@ footer a img {
     text-align: center;
     background-color:rgba(0, 0, 205, 0.856);
 }
+
+.grid-contenedor div h3 {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.781);
+    width: 100%;
+    color: mediumblue;
+    padding: 5px;
+}
+
 .cuarto-item {
     grid-column: span 3;
     display: flex;
