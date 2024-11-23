@@ -52,7 +52,7 @@ body{
     align-items: center;
 }
 
-.hero h2 {
+.hero h1 {
     font-size: 60px;
     color: rgb(0, 30, 119);
     padding: 20px;
@@ -172,7 +172,7 @@ footer a img {
     align-items: center;
 }
 
-.servicio div h2{ 
+.servicio div h1{ 
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: 700;
@@ -194,13 +194,14 @@ footer a img {
     text-shadow: -4px 10px 9px rgba(0,0,0,0.53);
 }
 
-.diseño {
+.diseño div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.diseño div h3 {
+
+.diseño div h2 {
     text-align: center;
     font-size: 40px;
     margin: 10px;
@@ -213,17 +214,9 @@ footer a img {
 }
 
 .diseño img {
-    background-color: black;
-    text-decoration: none;
-    color: white;
-    padding: 10px;
     margin-top: 60px;
     margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    width: 60%;
+    width: 45%;
 }
 
 .proyecto {
@@ -274,7 +267,7 @@ footer a img {
     align-items: center;
 }
 
-.primera h2 {
+.primera h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
 }
@@ -377,7 +370,7 @@ footer a img {
 
 /*! TRABAJOS */
 
-.trabajos h2 {
+.trabajos h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
     margin: 15px;
@@ -401,7 +394,7 @@ footer a img {
     position: relative;
 }
 
-.grid-contenedor div h3 {
+.grid-contenedor div h2 {
     position: absolute;
     bottom: 0;
     background-color: rgba(255, 255, 255, 0.781);
