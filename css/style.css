@@ -476,19 +476,39 @@ footer a img {
 
 .primaria{
     margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 400px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
 }
 
+.primaria h1 {
+    padding: 10px;
+}
+
+.primaria p {
+    padding: 10px;
+    font-size: 25px;
+}
+
 .primaria img{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 70%;
     object-fit: cover;
 }
 
+
+.secundaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.secundaria div {
+    padding: 10px;
+}
 
 /*! MEDIA QUERIES */
 
