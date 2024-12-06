@@ -1,0 +1,30 @@
+
+//* Variables
+$color-1: black;
+$color-2: mediumblue;
+$color-3: blue;
+$color-4: white;
+
+
+//* Listas
+$font-size: 10px, 20px, 30px, 40px, 50px, 60px;
+$margin: 5px, 10px, 15px, 20px, 30px, 40px;
+
+
+//* Extends
+%center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+//* Mixin
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+

@@ -59,7 +59,7 @@ body{
 
 }
 
-.hero h3 {
+.hero h2 {
     font-size: 30px;
 }
 .hero p {
@@ -132,7 +132,8 @@ body{
 /*!----FOOTER----*/
 
 footer {
-    background-color: rgb(52, 52, 52);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 23%, rgba(0,0,246,1) 78%, rgba(0,212,255,1) 100%);
     margin-top: 20px;
     padding: 20px;
     display: flex;
@@ -224,13 +225,14 @@ footer a img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
+
 .proyecto h3 {
     text-align: center;
     font-size: 40px;
     margin: 10px;
-    background-color: rgba(50, 224, 216, 0.719);
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(2,0,36,1) 23%, rgba(0,0,246,1) 78%, rgba(0,212,255,1) 100%);
 }
 
 .proyecto p{
@@ -297,7 +299,7 @@ footer a img {
     width: 60%;
 }
 
-.segunda h3 {
+.segunda h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
     margin: 15px;
@@ -314,7 +316,7 @@ footer a img {
     justify-content: center;
     align-items: center;
 }
-.tercera h3 {
+.tercera h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
     margin: 15px;
@@ -324,6 +326,9 @@ footer a img {
     margin: 10px;
     padding: 15px;
 }
+.tercera li{
+    padding: 5px;
+}
 
 .cuarta {
     display: flex;
@@ -331,7 +336,7 @@ footer a img {
     justify-content: center;
     align-items: center;
 }
-.cuarta h3 {
+.cuarta h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
     margin: 15px;
@@ -347,7 +352,7 @@ footer a img {
     justify-content: center;
     align-items: center;
 }
-.quinta h3 {
+.quinta h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
     margin: 15px;
@@ -505,7 +510,12 @@ footer a img {
     text-align: center;
     margin-top: 50px;
 }
-
+.secundaria h2{
+    padding: 5px;
+    color:rgba(255, 255, 255, 0.856);
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 23%, rgba(0,0,246,1) 78%, rgba(0,212,255,1) 100%);
+}
 .secundaria div {
     padding: 10px;
 }
