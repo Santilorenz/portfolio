@@ -23,6 +23,12 @@ body{
     font-size: 20px;
 }
 
+.navbar-nav li a{
+    &:hover{
+        color: rgb(0, 4, 255);
+    }
+}
+
 .navbar-nav .nav-link{
     color: white;
 }

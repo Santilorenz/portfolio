@@ -19,15 +19,15 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="../index.html"> Inicio</a>
-                        <a class="nav-link" href="./servicios.html"> Servicios</a>
-                        <a class="nav-link" href="./nosotros.html"> Nosotros</a>
-                        <a class="nav-link" href="./trabajos.html"> Trabajos</a>
-                        <a class="nav-link" href="./contacto.html"> Contacto</a>
-                    </div>
-                </div>
+                <nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link" aria-current="page" href="../index.html"> Inicio</a></li>
+                        <li><a class="nav-link" href="./servicios.html"> Servicios</a></li>
+                        <li><a class="nav-link" href="./nosotros.html"> Nosotros</a></li>
+                        <li><a class="nav-link" href="./trabajos.html"> Trabajos</a></li>
+                        <li><a class="nav-link" href="./contacto.html"> Contacto</a></li>
+                    </ul>
+                </nav>
             </div>
         </nav>
     </header>
@@ -36,11 +36,37 @@
         <section class="primaria">
             <h1> ¿TENES DUDAS? </h1>
             <p> Contactate y un asesor se pondra en contacto a la brevedad </p>
-            <img src="../img/contacto.png" alt="el mundo conectado">
         </section>
 
         <section class="secundaria">
             <h2> QUERES QUE NOS ENCARGUEMOS DE TU SITIO WEB </h2>
+            <div class="imagen">
+                <img src="../img/contacto.png" alt="el mundo conectado">
+                <div class="formulario">
+                <form action="">
+                    <div>
+                        <label for=""></label>
+                        <input type="text" placeholder="Nombre y Apellido">
+                    </div>  
+                    <div>
+                        <label for=""></label>
+                        <input type="email" placeholder="Email">
+                    </div> 
+                    <div>
+                        <label for=""></label>
+                        <input type="text" placeholder="Celular">
+                    </div> 
+                    <div>
+                        <label for=""></label>
+                        <textarea name="Mensaje" id="Mensaje"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+                </div>
+            </div>
+            <!-- <img src="../img/contacto.png" alt="el mundo conectado">
             <div class="formulario">
                 <form action="">
                     <div>
@@ -63,7 +89,7 @@
                         <input type="submit" value="Enviar">
                     </div>
                 </form>
-            </div>
+            </div> -->
         </section>
     </main>
     <footer> <!-- Pie de pagina -->
